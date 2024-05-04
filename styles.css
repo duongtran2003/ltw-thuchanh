@@ -107,6 +107,9 @@ p {
   padding: 20px 10px 10px 10px;
   width: 400px;
   margin-right: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(67, 67, 67);
 }
 
 #section1-form-input:focus-within div {
@@ -123,6 +126,11 @@ p {
   border-style: none;
   border-radius: 5px;
   padding: 2px 20px;
+  transition-duration: 200ms;
+}
+
+#section1-form-button:hover {
+  background-color: rgb(189, 0, 0);
 }
 
 #section2 {
@@ -252,4 +260,158 @@ p {
 
 #section5-right {
   padding-top: 100px;
+}
+
+#section6 {
+  padding: 40px 150px 100px 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+#section6 h2 {
+  font-size: 45px;
+  text-align: center;
+}
+
+#section6-FAQ {
+  font-size: 24px;
+}
+
+#section6-FAQ-list {
+  margin-top: 20px;
+}
+
+.section6-FAQ-listItem {
+  margin-bottom: 8px;
+}
+
+.section6-FAQ-listItem-main {
+  background-color: rgb(53, 53, 53);
+  padding: 20px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.section6-FAQ-listItem-main:hover {
+  background-color: rgb(68, 68, 68);
+}
+
+.section6-FAQ-listItem-expanded {
+  background-color: rgb(53, 53, 53);
+  padding: 20px;
+}
+
+#section6-form {
+  padding-top: 50px;
+  padding-left: 148px;
+  padding-right: 148px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section6 p {
+  font-size: 22px;
+  padding: 40px 150px 0px 150px;
+  text-align: center;
+}
+
+
+#section6-form {
+  margin-top: 10px;
+  position: relative;
+}
+
+#section6-floating-label {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+#section6-form-input {
+  position: relative;
+}
+
+#section6-form-input div {
+  transition-duration: 200ms;
+  pointer-events: none;
+}
+
+#section6-form-input input {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 20px 10px 10px 10px;
+  width: 400px;
+  margin-right: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(67, 67, 67);
+}
+
+#section6-form-input:focus-within div {
+  transform: translateY(-50%);
+  font-size: 12px;
+}
+
+#section6-form-button {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  font-size: 24px;
+  outline: none;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition-duration: 200ms;
+}
+
+#section6-form-button:hover {
+  background-color: rgb(189, 0, 0);
+}
+
+#section7 {
+  padding: 60px 150px 40px 150px;
+  background-color: black;
+}
+
+#section7 a {
+  color: gray;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+#section7-header {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#section7-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section7-col {
+  display: flex;
+  flex-direction: column;
+}
+
+#section7-dropdown-select {
+  background-color: black;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#section7-footer {
+  padding-top: 20px;
+  color: gray;
+  padding-bottom: 50px;
 }
